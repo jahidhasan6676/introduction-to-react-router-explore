@@ -1,0 +1,16 @@
+nav a{
+    margin-right: 20px;
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px
+}
+
+/* @media screen  and (min-width: 776px) {
+    .header-grid{
+       
+        grid-template-columns: repeat(1, 1fr);
+    }
+} */
